@@ -26,7 +26,7 @@ book.category = 'Programming'
 
 book.pages = 464
 
-book.isbn13 = book.isbn13
+book.isbn.isbn13 = isbn13
 
 delete book.dimensions
 
