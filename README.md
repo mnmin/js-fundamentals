@@ -52,7 +52,7 @@ To start, always first run the tests for the set of exercises you are on. The si
 
 ```sh
 $ npx jasmine spec/variables/assignment.spec.js
-```
+```n
 ![](./_images/test-output1.png)
 
 **Inspect** this output. Your output might be slightly different. Read through this, and focus on one test at a time. Get the tests to pass by editing the corresponding source file for the test, located in the `src` directory. In the above example, you would edit `src/variables/assignment.js` and follow the instructions to make the test pass. **Do not change any code in the `spec` directory**.
