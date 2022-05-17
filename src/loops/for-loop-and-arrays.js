@@ -7,6 +7,13 @@ let word = ''
 
 // Use a for loop to set the sum variable to the sum of all the values in nums
 sum = 0
+for (let i = 0; i <= nums.length; i++) {
+  // I need to get number at i from nums array
+  const number = nums[i] // right had side = get the value inside nums at index = i
+  // left hand side = create variable called "number" that stores the value from right hand side
+  // I need to add number to sum
+  sum = number + sum
+}
 
 // Use a for loop to populate doubledNums with every value from nums array doubled (i.e [2, 6, 24, etc...])
 const doubledNums = []
