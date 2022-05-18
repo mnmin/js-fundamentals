@@ -13,11 +13,20 @@ for (let i = 0; i < nums.length; i++) {
   // left hand side = create variable called "number" that stores the value from right hand side
   // I need to add number to sum
   sum = number + sum
-  console.log(i, number, sum)
+  
 }
 
 // Use a for loop to populate doubledNums with every value from nums array doubled (i.e [2, 6, 24, etc...])
 const doubledNums = []
+
+for (let i = 0; i < nums.length; i++) {
+  
+  //I need to double nums array and set it to a new constant
+  const doubled = nums[i] * 2 
+  // I need to get this value and set it to doubleNumbs
+  doubleNums.push(doubled)
+}
+
 
 // Use a for loop to set word equal to all the letters in the letters array
 word = ''
