@@ -24,9 +24,8 @@ for (let i = 0; i < nums.length; i++) {
   //I need to double nums array and set it to a new constant
   const doubled = nums[i] * 2 
   // I need to get this value and set it to doubleNumbs
-  doubleNums.push(doubled)
+  doubledNums.push(doubled)
 }
-
 
 // Use a for loop to set word equal to all the letters in the letters array
 word = ''
