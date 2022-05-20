@@ -19,7 +19,12 @@ function sayHelloManyTimes (name, times) {
 // TODO: Add and update code here to make the tests pass
 
 // Set this variable to 'Hello' by calling the sayHello function
-const hello = ''
+
+function callAnotherFunction (sayHello) {
+  return sayHello()
+}
+
+callAnotherFunction(sayHello)
 
 // Set this variable variable to 'Hello Jane' calling the sayHelloTo function
 const helloToJane = ''
